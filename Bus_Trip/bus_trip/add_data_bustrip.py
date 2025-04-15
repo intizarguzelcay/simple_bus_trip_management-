@@ -1,13 +1,13 @@
 #İNTİZAR GÜZELÇAY
 #18.05.2024
-#Obilet ödev
 
 
-from create_obilet import Obilet 
+
+from BUSTRİP.Bus_Trip.bus_trip.create_bustrip import Bustrip 
 
 yol = {"user": "root", "password": "", "host": "127.0.0.1", "database": "obilet"}
 
-obilet = Obilet(yol)
+bustrip = Bustrip(yol)
 
 obilet.add_firm("KAMİL KOC")
 obilet.add_firm("METRO")

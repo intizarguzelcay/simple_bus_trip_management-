@@ -1,11 +1,10 @@
 #İNTİZAR GÜZELÇAY
 #18.05.2024
-#Obilet ödev
 
 
 import mysql.connector as sql
 
-class Obilet:
+class Bustrip:
 
     def __init__(self, connection):
         self.connection = sql.connect(**connection)
