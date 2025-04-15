@@ -41,7 +41,7 @@ Bus_Trip / └── pycache/ # Python cache files └──bus_trip │ └─�
 
 5. At the end, several firms, routes, trips, and trip times are added, and the user is prompted to search for a trip.
 
-6. Database connection is closed automatically when the object is deleted.
+
 
 ---
 
